@@ -5,8 +5,8 @@ Multi-agent UofL student assistant. Next.js 15 (App Router, TypeScript, Tailwind
 ## Commands
 - `cd web && npm run dev` — frontend dev server
 - `cd web && npm run build && npm run lint` — must pass before any commit
-- `cd api && uvicorn main:app --reload` — backend dev server
-- `cd api && pytest` — backend tests
+- `cd api && uv run uvicorn main:app --reload` — backend dev server
+- `cd api && uv run pytest` — backend tests
 
 ## Conventions
 - TypeScript strict mode; no `any` without a comment justifying it
